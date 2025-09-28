@@ -33,7 +33,7 @@ if ($resultado->num_rows === 1) {
         $_SESSION['id'] = $usuario['id_usuario']; // Ajuste o nome da coluna do ID se for diferente
 
         // Redireciona para o painel principal
-        header('Location: dashboard-mobile.php');
+        header('Location: dashboard-mobile.html');
         exit();
 
     } else {
